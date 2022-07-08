@@ -1,0 +1,354 @@
+@font-face {
+	font-family: 'BAUHS93';
+	src: url("BAUHS93.woff");
+	
+}
+.fontsforweb_fontid_2802 {
+	font-family: 'BAUHS93' !important;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -5px;
+  z-index: 2;
+  height: 70px;
+  width: 100%;
+  background-color: #000;
+  color: white;
+}
+.nav-container {
+  height: 100%;
+  width: 90%;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.active {
+  font-weight: bold;
+}
+ul {
+  display: flex;
+  gap: 1rem;
+  font-size: 1rem;
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin: 0 50px;
+
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+li:hover {
+  text-decoration: underline;
+}
+
+
+.home {
+  height: 100vh;
+  margin-top: -70px;
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+}
+#vines {
+  height: 150px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 0;
+  background-image: url("vines.png");
+  background-size: contain;
+  background-repeat: repeat-x;
+  position: static;
+  z-index: 1;
+}
+.main-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.text-container {
+  height: 100%;
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#title {
+  margin-bottom: 0px;
+  font-size: 6rem;
+  color: #008000;
+  text-shadow: 4px 4px 4px #aaa;
+}
+#subtitle {
+  font-size: 2rem;
+  text-shadow: 3px 3px 3px #aaa;
+}
+
+#download {
+  width: 25%;
+  height: 10%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 45px;
+  border: none;
+  text-decoration: none;
+  background-color: #008000;
+  color: #ffffff;
+  font-size: larger;
+
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+}
+
+#download:hover {
+  background-color: #ffffff;
+  border: 1px solid #008000;
+  color: #008000;
+  box-shadow: 5px 5px 0 rgba(0, 128, 0);
+
+  transition: all 0.4s;
+}
+
+.image-container {
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#image{
+  width: 100%;
+  height: 60%;
+  background-image: url("PlantsOnTableC.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.info {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+}
+.info div {
+  width: 25%;
+  height: 100%;
+}
+.care {
+  background-image: url("PlantBG1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.care div {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 128, 0, 0.3);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.remember{
+  background-image: url("PlantBG2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.remember div {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(9, 151, 236, 0.3);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.socialize{
+  background-image: url("PlantBG3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.socialize div {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(217, 80, 80, 0.3);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.change{
+  background-image: url("PlantBG4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.change div {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(187, 181, 24, 0.3);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact {
+  height: 100vh;
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-container span {
+  height: 50%;
+  width: 75%;
+
+  text-align: center;
+  color: #fff;
+  font-family: 'Agency FB', arial;
+  font-size: 2rem;
+  text-shadow: 4px 4px 4px #000;
+}
+.text-container h1{
+  font-size: 3rem;
+  margin-bottom: 80px;
+}
+
+.card {
+  width: 70%;
+  height: 60%;
+  padding: 30px 90px 90px 90px;
+  border: 6px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 20px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  position: relative;
+}
+
+.card h2 {
+  color: #000000;
+  margin: 0;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.card .row {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid: auto / auto auto;
+  grid-template-columns: repeat(auto-fit,minmax(40%, 1fr));
+  grid-gap: 30px;
+}
+
+.card .row .col {
+  position: relative;
+  width: 100%;
+  margin: 30px 20px 40px 0;
+  transition: 0.5s;
+}
+
+.card .row .form-group {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  color: #ffffff;
+}
+
+.card .row .form-group input,
+.card .row .form-group textarea {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  background: transparent;
+  outline: none;
+  font-size: 24px;
+  padding: 10px 0 10px 20px;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
+  color: #000000;
+  border-radius: 50px;
+}
+
+.card .row .form-group label {
+  line-height: 40px;
+  color: #000000;
+  font-size: 24px;
+  margin: 0 0 0 30px;
+  display: block;
+  pointer-events: none;
+}
+
+.row .col:nth-child(6) {
+  margin-top: 64px;
+}
+
+.card .row .form-group input:focus,
+.card .row .form-group textarea:focus {
+  border: 5px solid #ffffff;
+  transition: all 0.5s;
+}
+
+.card .row input[type="submit"] {
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  height: 100%;
+  width: 50%;
+  cursor: pointer;
+  outline: none;
+  background-color: #008000;
+  text-transform: uppercase;
+  border:none;
+  color: #ffffff;
+  line-height: 40px;
+  font-size: 24px;
+  border-radius: 45px;
+  transition: all 0.4s;
+}
+
+.card .row input[type="submit"]:hover {
+  border: 1px solid #008000;
+  background-color: #ffffff;
+  color: #008000;
+  box-shadow: 5px 5px 0 rgba(0, 128, 0);
+  transition: all 0.4s;
+}
+
+@media screen and (max-width: 900px) {
+  .card .row {
+    grid-template-columns: repeat(auto-fit,minmax(70%, 1fr));
+  }
+  
+  .card {
+    padding: 20px;
+  }
+  
+  .card h2 {
+    font-size: 34px;
+  }
+  
+  .card .row input[type="submit"] {
+    width: 100%;
+  }
+}
